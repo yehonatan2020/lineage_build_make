@@ -22,12 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/media_product.mk)
 
 # /product packages
 PRODUCT_PACKAGES += \
-    Browser2 \
-    Calendar \
-    Contacts \
-    DeskClock \
-    Gallery2 \
-    Music \
     preinstalled-packages-platform-handheld-product.xml \
     QuickSearchBox \
     SettingsIntelligence \
@@ -35,7 +29,6 @@ PRODUCT_PACKAGES += \
 
 ifeq ($(LINEAGE_BUILD),)
 PRODUCT_PACKAGES += \
-    Camera2 \
     LatinIME
 endif
 
