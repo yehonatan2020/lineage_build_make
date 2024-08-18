@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += \
     DeviceAsWebcam \
     DocumentsUI \
     DownloadProviderUi \
-    EasterEgg \
     ExternalStorageProvider \
     FusedLocation \
     InputDevices \
@@ -96,4 +95,3 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Traceur for debug only
 PRODUCT_PACKAGES_ENG += \
-    Traceur
